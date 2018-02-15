@@ -102,10 +102,10 @@ def model_evaluate(model, x, y):
 def main():
     #seq_len = 35
     epochs = 100
-    batch_size = 64
-    nb_sample = 50
-    seq_lens = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
-    data_opt = 'twitter'
+    batch_size = 128
+    nb_sample = 10
+    seq_lens = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]
+    data_opt = 'weibo'
     
     if data_opt =='twitter':
         data_name = 'twitter15'
