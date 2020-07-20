@@ -1,7 +1,6 @@
 import sys, os
 sys.path.append('..')
 import utils
-
 import json, time, datetime, numpy
 project_folder = os.path.join('..', '..')
 
