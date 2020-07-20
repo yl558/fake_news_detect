@@ -2,6 +2,7 @@ import sys, os
 sys.path.append('..')
 import utils
 
+
 def get_user_ids(line):
     # return left uid, right uid
     return eval(line.split('->')[0])[0], eval(line.split('->')[1])[0]
