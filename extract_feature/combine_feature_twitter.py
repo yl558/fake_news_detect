@@ -1,10 +1,11 @@
 import sys, os, json, time, datetime
 sys.path.append('..')
 import utils
+import numpy as np
 
 project_folder = os.path.join('..', '..')
 
-import numpy as np
+
 
 def main():
 	x15 = np.load(os.path.join(project_folder, 'feature', 'twitter15', 'x.npy'))
