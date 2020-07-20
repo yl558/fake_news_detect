@@ -6,7 +6,6 @@ project_folder = os.path.join('..', '..')
 
 import numpy as np
 import random
-
 import keras
 from keras.models import Sequential, load_model, Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv1D, MaxPooling1D, Concatenate, TimeDistributed, LSTM, AveragePooling1D, Embedding, GRU, GlobalAveragePooling1D
