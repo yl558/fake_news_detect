@@ -7,6 +7,7 @@ from sklearn import preprocessing
 def read(file_path):
     if not os.path.exists(file_path):
         return None
+    
     f = open(file_path, 'r', encoding = 'utf-8', errors = 'ignore')
     con = f.read()
     f.close()
