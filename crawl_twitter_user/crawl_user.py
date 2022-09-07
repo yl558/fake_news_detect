@@ -43,10 +43,7 @@ def main():
     user_ids_not_exist = list(set(user_ids) - set(crawled_user_ids))
     print('# user ids not crawled: {}'.format(len(user_ids_not_exist)))
 
-    client_key= 'ACE4GN7LOv1C5isH1e18VRmeD'
-    client_secret='zgKhzxxMph36Bt6jnIrr7ysfvnEaujdmr0pS6jpezbmkWxhIuX'
-    resource_owner_key='917033232587214848-18iztS2rsFjIOUg1OrmnOR8kQxz9xIk'
-    resource_owner_secret='soS2qjaMG1fgsyM3afh8wnSns0ki4Cu5BIG2uSwkcXfzB'
+    
     oauth = OAuth1(client_key, client_secret, resource_owner_key, resource_owner_secret)
     url = 'https://api.twitter.com/1.1/users/lookup.json'
 
